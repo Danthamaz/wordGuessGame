@@ -6,9 +6,10 @@
     <title>Word Guess</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 
-<body>
+<body onload="javascript:newGame()">
     <div id="wrapper">
         <div id="gameName">
             <!-- <pre> says for text to be presented EXACTLY as written in HTML file -->
@@ -18,20 +19,39 @@
             <pre><p>  \ V  V /  | (_) | | |   | (_| |   | |_| | | |_| ||  __/ \__ \ \__ \</p></pre>
             <pre><p>   \_/\_/    \___/  |_|    \__,_|    \____|  \__,_| \___| |___/ |___/</p></pre>
         </div>
+        <div id="content-1">
+            <div id="theme">
+                <p>Theme: American Rock Bands</p>
+            </div>
+            <div id="main">
+                <p>Press any key to started! </p> 
+            </div>
 
-        <div id="main">
-            <pre><p>+------------------------------------------------------------+</p></pre>
-            <pre><p>| <span> ___                                       _              </span> |</p></pre>
-            <pre><p>| <span>| _ \ _ _  ___  ___ ___  __ _  _ _  _  _  | |__ ___  _  _ </span> |</p></pre>
-            <pre><p>| <span>|  _/| '_|/ -_)(_-<(_-< / _` || ' \| || | | / // -_)| || |</span> |</p></pre>
-            <pre><p>| <span>|_|  |_|  \___|/__//__/ \__,_||_||_|\_, | |_\_\\___| \_, |</span> |</p></pre>
-            <pre><p>| <span>                                    |__/             |__/ </span> |</p></pre>
-            <pre><p>+------------------------------------------------------------+</p></pre>
+        </div>
+
+        <div id="content-2">
+            <div id='livesRemaining'>
+
+            </div>
+            <div id="guesses">
+
+            </div>
+
+        </div>
+
+        <div id="scores">
+            <div id="wins">
+
+            </div>
+            <div id="losses">
+
+            </div>
+
         </div>
 
     </div>
 
-    <script type="text/javascript" src="./game.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 
 </html>

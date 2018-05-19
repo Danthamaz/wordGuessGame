@@ -1,43 +1,57 @@
 body {
-	position: relative;
 	background-color:black ;
 }
 
 body {
 	font-family: "Courier New", Courier, monospace;
-	color: #33FF33;
+	color: greenyellow;
 }
 
-#title {
+#gameName {
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
 
-#instruction, #alerts {
-	text-align: center;
-	font-size: 12px;
-}
-
-#main-content {
+#wrapper {
 	width: 960px;
 	margin: 0px auto 0px auto;
 }
 
-.panel {
-	background-color:black;
-	padding: 20px;
-	margin: 10px;
-}
-
-#word-display {
-	text-align: center;
-	font-size: 32px;
-	padding: 10px;
-	padding-bottom: 20px;
-}
-
-#general-display {
+#content-1 {
 	text-align: center;
 	font-size: 16px;
+	border: solid 1px;
+	height: 100px;
+	margin: 10px auto;
+	width: 60%;
+}
+#theme {
+	padding: 17.5px 0px;
+}
+
+#content-2 {
+	text-align: center;
+	font-size: 16px;
+	border: solid 1px;
+	height: 100px;
+	margin: 10px auto;
+	width: 60%;
+}
+
+#livesRemaining {
+	padding: 17.5px 0px;
+}
+
+#scores {
+	text-align: center;
+	font-size: 16px;
+	border: solid 1px;
+	height: 100px;
+	margin: 10px auto;
+	width: 60%;
+}
+
+#wins {
+	padding: 17.5px 0px;
 }
